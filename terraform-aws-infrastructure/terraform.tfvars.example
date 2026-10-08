@@ -1,0 +1,9 @@
+# Copy this file to terraform.tfvars and replace the values.
+# Do not commit terraform.tfvars if it contains environment-specific values.
+
+ami_id   = "YOUR_UBUNTU_AMI_ID"
+key_name = "YOUR_EC2_KEY_PAIR_NAME"
+
+# Optional:
+# aws_region     = "ap-south-1"
+# instance_type  = "t2.micro"
